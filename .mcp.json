@@ -1,0 +1,10 @@
+{
+  "mcpServers": {
+    "smaregi": {
+      "command": "node",
+      "args": [
+        "./bin/smaregi-mcp.js"
+      ]
+    }
+  }
+}

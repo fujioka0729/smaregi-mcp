@@ -1,0 +1,21 @@
+[
+  {"path": "/products", "methods": ["GET","POST"], "description": "商品"},
+  {"path": "/products/{productId}", "methods": ["GET","PUT","DELETE"], "description": "商品詳細"},
+  {"path": "/categories", "methods": ["GET","POST"], "description": "カテゴリ"},
+  {"path": "/transactions", "methods": ["GET","POST"], "description": "取引"},
+  {"path": "/transactions/{transactionId}", "methods": ["GET"], "description": "取引詳細"},
+  {"path": "/customers", "methods": ["GET","POST"], "description": "会員"},
+  {"path": "/customers/{customerId}", "methods": ["GET","PUT","DELETE"], "description": "会員詳細"},
+  {"path": "/stores", "methods": ["GET"], "description": "店舗"},
+  {"path": "/stores/{storeId}", "methods": ["GET"], "description": "店舗詳細"},
+  {"path": "/staffs", "methods": ["GET"], "description": "スタッフ"},
+  {"path": "/stock", "methods": ["GET","PUT","POST"], "description": "在庫"},
+  {"path": "/payment_methods", "methods": ["GET"], "description": "支払方法"},
+  {"path": "/coupons", "methods": ["GET","POST"], "description": "クーポン"},
+  {"path": "/coupons/{couponId}", "methods": ["GET","PUT","DELETE"], "description": "クーポン詳細"},
+  {"path": "/bargains", "methods": ["GET","POST"], "description": "セール"},
+  {"path": "/layaways", "methods": ["GET","POST"], "description": "取り置き"},
+  {"path": "/terminals", "methods": ["GET"], "description": "端末"},
+  {"path": "/daily_sum", "methods": ["GET"], "description": "日次精算"},
+  {"path": "/suppliers", "methods": ["GET","POST"], "description": "仕入先"}
+]
